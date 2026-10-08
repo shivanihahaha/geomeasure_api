@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Agricultural Parcels &amp; Irrigation Infrastructure</name>
+    <description>Sample survey dataset for GeoMeasure analysis</description>
+    
+    <!-- Parcel 1: North Orchard (Polygon) -->
+    <Placemark>
+      <name>North Orchard Field</name>
+      <description>Commercial citrus orchard zone</description>
+      <ExtendedData>
+        <Data name="crop_type"><value>Citrus</value></Data>
+        <Data name="soil_grade"><value>Class A</value></Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.5850,12.9800,0
+              77.5900,12.9800,0
+              77.5900,12.9850,0
+              77.5850,12.9850,0
+              77.5850,12.9800,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <!-- Parcel 2: South Vineyard (Polygon) -->
+    <Placemark>
+      <name>South Vineyard Field</name>
+      <description>Organic grape cultivation parcel</description>
+      <ExtendedData>
+        <Data name="crop_type"><value>Grapevine</value></Data>
+        <Data name="irrigation"><value>Drip</value></Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.5920,12.9750,0
+              77.5980,12.9750,0
+              77.5980,12.9790,0
+              77.5920,12.9790,0
+              77.5920,12.9750,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <!-- Irrigation Canal Route (LineString) -->
+    <Placemark>
+      <name>Main Irrigation Canal</name>
+      <description>Primary concrete-lined water distribution canal</description>
+      <ExtendedData>
+        <Data name="flow_rate"><value>4.5 m3/s</value></Data>
+      </ExtendedData>
+      <LineString>
+        <coordinates>
+          77.5830,12.9780,0
+          77.5870,12.9810,0
+          77.5910,12.9830,0
+          77.5960,12.9860,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <!-- Perimeter Boundary Fence (LineString) -->
+    <Placemark>
+      <name>Estate Access Roadway</name>
+      <description>Paved dual-lane agricultural access road</description>
+      <LineString>
+        <coordinates>
+          77.5840,12.9720,0
+          77.5890,12.9740,0
+          77.5950,12.9760,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <!-- Monitoring Station (Point - No measurement required) -->
+    <Placemark>
+      <name>Meteorological Station A1</name>
+      <description>Solar-powered automated agro-weather telemetry station</description>
+      <Point>
+        <coordinates>77.5880,12.9820,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Soil Moisture Node (Point) -->
+    <Placemark>
+      <name>Soil Telemetry Sensor #4</name>
+      <description>Subsurface IoT moisture and salinity probe</description>
+      <Point>
+        <coordinates>77.5940,12.9770,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

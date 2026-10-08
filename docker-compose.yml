@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  geomeasure-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: geomeasure-api
+    ports:
+      - "8001:8001"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8001
+      - DEBUG=false
+      - DATABASE_URL=sqlite:////app/data/geomeasure.db
+      - MAX_UPLOAD_SIZE_BYTES=52428800
+    volumes:
+      - geomeasure-data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/api/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+
+  # Optional PostGIS service for PostgreSQL deployment
+  postgis-db:
+    image: postgis/postgis:15-3.3
+    container_name: geomeasure-postgis
+    environment:
+      - POSTGRES_DB=geomeasure
+      - POSTGRES_USER=geomeasure
+      - POSTGRES_PASSWORD=geomeasure_secret
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgis-data:/var/lib/postgresql/data
+    profiles:
+      - postgis
+
+volumes:
+  geomeasure-data:
+  postgis-data:

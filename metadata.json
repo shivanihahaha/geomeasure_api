@@ -1,0 +1,6 @@
+{
+  "name": "GeoMeasure — Geospatial File Measurement & Analysis Platform",
+  "description": "Enterprise-grade geospatial file measurement platform for Shapefile (.zip) and KML files with automatic CRS detection, projected transformations, polygon area and linestring length calculations, interactive Leaflet visualization, and REST APIs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
