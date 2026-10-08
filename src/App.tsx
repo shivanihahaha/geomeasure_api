@@ -280,6 +280,7 @@ export default function App() {
                 {/* Interactive Leaflet Map */}
                 <InteractiveMap
                   mapData={mapData}
+                  features={features}
                   selectedFeatureId={selectedFeatureId}
                   onSelectFeature={(id) => setSelectedFeatureId(id)}
                 />

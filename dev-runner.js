@@ -18,25 +18,35 @@ async function start() {
   console.log('[Runner] Checking FastAPI backend...');
   const isRunning = await checkFastAPIRunning();
 
+  const isWin = process.platform === 'win32';
+  const pyCmd = isWin ? 'python' : 'python3';
+  const npxCmd = isWin ? 'npx.cmd' : 'npx';
+
   let pyProcess = null;
   if (!isRunning) {
     console.log('[Runner] Starting Python FastAPI server on 127.0.0.1:8001...');
-    pyProcess = spawn('python3', ['-m', 'uvicorn', 'backend.app.main:app', '--host', '127.0.0.1', '--port', '8001'], {
+    pyProcess = spawn(pyCmd, ['-m', 'uvicorn', 'backend.app.main:app', '--host', '127.0.0.1', '--port', '8001'], {
       stdio: 'inherit',
-      cwd: process.cwd()
+      cwd: process.cwd(),
+      shell: isWin,
     });
 
     pyProcess.on('error', (err) => {
-      console.error('[Runner] Failed to start Python server:', err);
+      console.warn('[Runner] Notice from Python runner:', err.message);
     });
   } else {
     console.log('[Runner] FastAPI is already running on port 8001.');
   }
 
   console.log('[Runner] Starting Vite frontend on 0.0.0.0:3000...');
-  const viteProcess = spawn('npx', ['vite', '--port=3000', '--host=0.0.0.0'], {
+  const viteProcess = spawn(npxCmd, ['vite', '--port=3000', '--host=0.0.0.0'], {
     stdio: 'inherit',
-    cwd: process.cwd()
+    cwd: process.cwd(),
+    shell: isWin,
+  });
+
+  viteProcess.on('error', (err) => {
+    console.error('[Runner] Vite launch error:', err);
   });
 
   const cleanup = () => {
