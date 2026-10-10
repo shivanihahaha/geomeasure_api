@@ -716,5 +716,1312 @@
         "measurement_status": "NOT_APPLICABLE"
       }
     ]
+  },
+  {
+    "id": "mhd7k4ofa1n",
+    "filename": "agricultural_zones_survey.kml",
+    "feature_count": 6,
+    "crs": "EPSG:4326",
+    "measurement_crs": "EPSG:32643",
+    "measurement_units": "meters",
+    "status": "COMPLETED",
+    "geometry_types": {
+      "Polygon": 2,
+      "LineString": 2,
+      "Point": 2,
+      "MultiPolygon": 0,
+      "MultiLineString": 0,
+      "MultiPoint": 0,
+      "Other": 0
+    },
+    "created_at": "2026-10-10T17:34:45.959Z",
+    "processing_time_ms": 252,
+    "file_size_bytes": 3229,
+    "summary_data": {
+      "total_features": 6,
+      "polygon_count": 2,
+      "linestring_count": 2,
+      "point_count": 2,
+      "other_count": 0,
+      "total_area_m2": 590372.97,
+      "total_area_ha": 59.0373,
+      "total_area_km2": 0.5904,
+      "total_area_acres": 145.88,
+      "total_length_m": 2943.06,
+      "total_length_km": 2.943,
+      "total_length_miles": 1.829,
+      "total_length_ft": 9655.72,
+      "source_crs": "EPSG:4326",
+      "measurement_crs": "EPSG:32643",
+      "measurement_units": "meters",
+      "crs_strategy": "Auto-selected WGS 84 / UTM zone 43N (EPSG:32643) based on dataset centroid (12.9790°N, 77.5905°E)",
+      "bounds": [
+        [
+          12.972,
+          77.583
+        ],
+        [
+          12.986,
+          77.598
+        ]
+      ],
+      "center": [
+        12.979,
+        77.59049999999999
+      ]
+    },
+    "features": [
+      {
+        "feature_id": 0,
+        "geometry_type": "Polygon",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                77.585,
+                12.98,
+                0
+              ],
+              [
+                77.59,
+                12.98,
+                0
+              ],
+              [
+                77.59,
+                12.985,
+                0
+              ],
+              [
+                77.585,
+                12.985,
+                0
+              ],
+              [
+                77.585,
+                12.98,
+                0
+              ]
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "North Orchard Field",
+          "description": "Commercial citrus orchard zone",
+          "crop_type": "Citrus",
+          "soil_grade": "Class A"
+        },
+        "measurement": {
+          "type": "AREA",
+          "value": 301207.44,
+          "unit": "m²",
+          "formatted": "30.12 ha",
+          "conversions": {
+            "m2": {
+              "unit": "m²",
+              "value": 301207.44,
+              "formatted": "301,207.44 m²"
+            },
+            "ha": {
+              "unit": "ha",
+              "value": 30.1207,
+              "formatted": "30.1207 ha"
+            },
+            "km2": {
+              "unit": "km²",
+              "value": 0.3012,
+              "formatted": "0.3012 km²"
+            },
+            "acres": {
+              "unit": "ac",
+              "value": 74.43,
+              "formatted": "74.43 ac"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 1,
+        "geometry_type": "Polygon",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                77.592,
+                12.975,
+                0
+              ],
+              [
+                77.598,
+                12.975,
+                0
+              ],
+              [
+                77.598,
+                12.979,
+                0
+              ],
+              [
+                77.592,
+                12.979,
+                0
+              ],
+              [
+                77.592,
+                12.975,
+                0
+              ]
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "South Vineyard Field",
+          "description": "Organic grape cultivation parcel",
+          "crop_type": "Grapevine",
+          "irrigation": "Drip"
+        },
+        "measurement": {
+          "type": "AREA",
+          "value": 289165.54,
+          "unit": "m²",
+          "formatted": "28.92 ha",
+          "conversions": {
+            "m2": {
+              "unit": "m²",
+              "value": 289165.54,
+              "formatted": "289,165.54 m²"
+            },
+            "ha": {
+              "unit": "ha",
+              "value": 28.9166,
+              "formatted": "28.9166 ha"
+            },
+            "km2": {
+              "unit": "km²",
+              "value": 0.2892,
+              "formatted": "0.2892 km²"
+            },
+            "acres": {
+              "unit": "ac",
+              "value": 71.45,
+              "formatted": "71.45 ac"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 2,
+        "geometry_type": "LineString",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.583,
+              12.978,
+              0
+            ],
+            [
+              77.587,
+              12.981,
+              0
+            ],
+            [
+              77.591,
+              12.983,
+              0
+            ],
+            [
+              77.596,
+              12.986,
+              0
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "Main Irrigation Canal",
+          "description": "Primary concrete-lined water distribution canal",
+          "flow_rate": "4.5 m3/s"
+        },
+        "measurement": {
+          "type": "LENGTH",
+          "value": 1670.29,
+          "unit": "m",
+          "formatted": "1.67 km",
+          "conversions": {
+            "m": {
+              "unit": "m",
+              "value": 1670.29,
+              "formatted": "1,670.29 m"
+            },
+            "km": {
+              "unit": "km",
+              "value": 1.67,
+              "formatted": "1.670 km"
+            },
+            "ft": {
+              "unit": "ft",
+              "value": 5479.95,
+              "formatted": "5,479.95 ft"
+            },
+            "miles": {
+              "unit": "mi",
+              "value": 1.038,
+              "formatted": "1.038 mi"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 3,
+        "geometry_type": "LineString",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.584,
+              12.972,
+              0
+            ],
+            [
+              77.589,
+              12.974,
+              0
+            ],
+            [
+              77.595,
+              12.976,
+              0
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "Estate Access Roadway",
+          "description": "Paved dual-lane agricultural access road"
+        },
+        "measurement": {
+          "type": "LENGTH",
+          "value": 1272.77,
+          "unit": "m",
+          "formatted": "1.27 km",
+          "conversions": {
+            "m": {
+              "unit": "m",
+              "value": 1272.77,
+              "formatted": "1,272.77 m"
+            },
+            "km": {
+              "unit": "km",
+              "value": 1.273,
+              "formatted": "1.273 km"
+            },
+            "ft": {
+              "unit": "ft",
+              "value": 4175.76,
+              "formatted": "4,175.76 ft"
+            },
+            "miles": {
+              "unit": "mi",
+              "value": 0.791,
+              "formatted": "0.791 mi"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 4,
+        "geometry_type": "Point",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.588,
+            12.982,
+            0
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "Meteorological Station A1",
+          "description": "Solar-powered automated agro-weather telemetry station"
+        },
+        "measurement": null,
+        "measurement_status": "NOT_APPLICABLE"
+      },
+      {
+        "feature_id": 5,
+        "geometry_type": "Point",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.594,
+            12.977,
+            0
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "Soil Telemetry Sensor #4",
+          "description": "Subsurface IoT moisture and salinity probe"
+        },
+        "measurement": null,
+        "measurement_status": "NOT_APPLICABLE"
+      }
+    ]
+  },
+  {
+    "id": "sj0rv4hno19",
+    "filename": "agricultural_zones_survey.kml",
+    "feature_count": 6,
+    "crs": "EPSG:4326",
+    "measurement_crs": "EPSG:32643",
+    "measurement_units": "meters",
+    "status": "COMPLETED",
+    "geometry_types": {
+      "Polygon": 2,
+      "LineString": 2,
+      "Point": 2,
+      "MultiPolygon": 0,
+      "MultiLineString": 0,
+      "MultiPoint": 0,
+      "Other": 0
+    },
+    "created_at": "2026-10-10T17:34:49.429Z",
+    "processing_time_ms": 22,
+    "file_size_bytes": 3229,
+    "summary_data": {
+      "total_features": 6,
+      "polygon_count": 2,
+      "linestring_count": 2,
+      "point_count": 2,
+      "other_count": 0,
+      "total_area_m2": 590372.97,
+      "total_area_ha": 59.0373,
+      "total_area_km2": 0.5904,
+      "total_area_acres": 145.88,
+      "total_length_m": 2943.06,
+      "total_length_km": 2.943,
+      "total_length_miles": 1.829,
+      "total_length_ft": 9655.72,
+      "source_crs": "EPSG:4326",
+      "measurement_crs": "EPSG:32643",
+      "measurement_units": "meters",
+      "crs_strategy": "Auto-selected WGS 84 / UTM zone 43N (EPSG:32643) based on dataset centroid (12.9790°N, 77.5905°E)",
+      "bounds": [
+        [
+          12.972,
+          77.583
+        ],
+        [
+          12.986,
+          77.598
+        ]
+      ],
+      "center": [
+        12.979,
+        77.59049999999999
+      ]
+    },
+    "features": [
+      {
+        "feature_id": 0,
+        "geometry_type": "Polygon",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                77.585,
+                12.98,
+                0
+              ],
+              [
+                77.59,
+                12.98,
+                0
+              ],
+              [
+                77.59,
+                12.985,
+                0
+              ],
+              [
+                77.585,
+                12.985,
+                0
+              ],
+              [
+                77.585,
+                12.98,
+                0
+              ]
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "North Orchard Field",
+          "description": "Commercial citrus orchard zone",
+          "crop_type": "Citrus",
+          "soil_grade": "Class A"
+        },
+        "measurement": {
+          "type": "AREA",
+          "value": 301207.44,
+          "unit": "m²",
+          "formatted": "30.12 ha",
+          "conversions": {
+            "m2": {
+              "unit": "m²",
+              "value": 301207.44,
+              "formatted": "301,207.44 m²"
+            },
+            "ha": {
+              "unit": "ha",
+              "value": 30.1207,
+              "formatted": "30.1207 ha"
+            },
+            "km2": {
+              "unit": "km²",
+              "value": 0.3012,
+              "formatted": "0.3012 km²"
+            },
+            "acres": {
+              "unit": "ac",
+              "value": 74.43,
+              "formatted": "74.43 ac"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 1,
+        "geometry_type": "Polygon",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                77.592,
+                12.975,
+                0
+              ],
+              [
+                77.598,
+                12.975,
+                0
+              ],
+              [
+                77.598,
+                12.979,
+                0
+              ],
+              [
+                77.592,
+                12.979,
+                0
+              ],
+              [
+                77.592,
+                12.975,
+                0
+              ]
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "South Vineyard Field",
+          "description": "Organic grape cultivation parcel",
+          "crop_type": "Grapevine",
+          "irrigation": "Drip"
+        },
+        "measurement": {
+          "type": "AREA",
+          "value": 289165.54,
+          "unit": "m²",
+          "formatted": "28.92 ha",
+          "conversions": {
+            "m2": {
+              "unit": "m²",
+              "value": 289165.54,
+              "formatted": "289,165.54 m²"
+            },
+            "ha": {
+              "unit": "ha",
+              "value": 28.9166,
+              "formatted": "28.9166 ha"
+            },
+            "km2": {
+              "unit": "km²",
+              "value": 0.2892,
+              "formatted": "0.2892 km²"
+            },
+            "acres": {
+              "unit": "ac",
+              "value": 71.45,
+              "formatted": "71.45 ac"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 2,
+        "geometry_type": "LineString",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.583,
+              12.978,
+              0
+            ],
+            [
+              77.587,
+              12.981,
+              0
+            ],
+            [
+              77.591,
+              12.983,
+              0
+            ],
+            [
+              77.596,
+              12.986,
+              0
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "Main Irrigation Canal",
+          "description": "Primary concrete-lined water distribution canal",
+          "flow_rate": "4.5 m3/s"
+        },
+        "measurement": {
+          "type": "LENGTH",
+          "value": 1670.29,
+          "unit": "m",
+          "formatted": "1.67 km",
+          "conversions": {
+            "m": {
+              "unit": "m",
+              "value": 1670.29,
+              "formatted": "1,670.29 m"
+            },
+            "km": {
+              "unit": "km",
+              "value": 1.67,
+              "formatted": "1.670 km"
+            },
+            "ft": {
+              "unit": "ft",
+              "value": 5479.95,
+              "formatted": "5,479.95 ft"
+            },
+            "miles": {
+              "unit": "mi",
+              "value": 1.038,
+              "formatted": "1.038 mi"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 3,
+        "geometry_type": "LineString",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.584,
+              12.972,
+              0
+            ],
+            [
+              77.589,
+              12.974,
+              0
+            ],
+            [
+              77.595,
+              12.976,
+              0
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "Estate Access Roadway",
+          "description": "Paved dual-lane agricultural access road"
+        },
+        "measurement": {
+          "type": "LENGTH",
+          "value": 1272.77,
+          "unit": "m",
+          "formatted": "1.27 km",
+          "conversions": {
+            "m": {
+              "unit": "m",
+              "value": 1272.77,
+              "formatted": "1,272.77 m"
+            },
+            "km": {
+              "unit": "km",
+              "value": 1.273,
+              "formatted": "1.273 km"
+            },
+            "ft": {
+              "unit": "ft",
+              "value": 4175.76,
+              "formatted": "4,175.76 ft"
+            },
+            "miles": {
+              "unit": "mi",
+              "value": 0.791,
+              "formatted": "0.791 mi"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 4,
+        "geometry_type": "Point",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.588,
+            12.982,
+            0
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "Meteorological Station A1",
+          "description": "Solar-powered automated agro-weather telemetry station"
+        },
+        "measurement": null,
+        "measurement_status": "NOT_APPLICABLE"
+      },
+      {
+        "feature_id": 5,
+        "geometry_type": "Point",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.594,
+            12.977,
+            0
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "Soil Telemetry Sensor #4",
+          "description": "Subsurface IoT moisture and salinity probe"
+        },
+        "measurement": null,
+        "measurement_status": "NOT_APPLICABLE"
+      }
+    ]
+  },
+  {
+    "id": "evny1ln5to",
+    "filename": "geomeasure_test_campus.kml",
+    "feature_count": 3,
+    "crs": "EPSG:4326",
+    "measurement_crs": "EPSG:32644",
+    "measurement_units": "meters",
+    "status": "COMPLETED",
+    "geometry_types": {
+      "Polygon": 1,
+      "LineString": 1,
+      "Point": 1,
+      "MultiPolygon": 0,
+      "MultiLineString": 0,
+      "MultiPoint": 0,
+      "Other": 0
+    },
+    "created_at": "2026-10-10T17:35:13.461Z",
+    "processing_time_ms": 13,
+    "file_size_bytes": 1596,
+    "summary_data": {
+      "total_features": 3,
+      "polygon_count": 1,
+      "linestring_count": 1,
+      "point_count": 1,
+      "other_count": 0,
+      "total_area_m2": 11799.49,
+      "total_area_ha": 1.1799,
+      "total_area_km2": 0.0118,
+      "total_area_acres": 2.92,
+      "total_length_m": 307.41,
+      "total_length_km": 0.307,
+      "total_length_miles": 0.191,
+      "total_length_ft": 1008.55,
+      "source_crs": "EPSG:4326",
+      "measurement_crs": "EPSG:32644",
+      "measurement_units": "meters",
+      "crs_strategy": "Auto-selected WGS 84 / UTM zone 44N (EPSG:32644) based on dataset centroid (17.3855°N, 78.4865°E)",
+      "bounds": [
+        [
+          17.3845,
+          78.4855
+        ],
+        [
+          17.3865,
+          78.4875
+        ]
+      ],
+      "center": [
+        17.3855,
+        78.4865
+      ]
+    },
+    "features": [
+      {
+        "feature_id": 0,
+        "geometry_type": "Polygon",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                78.486,
+                17.385,
+                0
+              ],
+              [
+                78.487,
+                17.385,
+                0
+              ],
+              [
+                78.487,
+                17.386,
+                0
+              ],
+              [
+                78.486,
+                17.386,
+                0
+              ],
+              [
+                78.486,
+                17.385,
+                0
+              ]
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32644",
+        "properties": {
+          "name": "Engineering Zone",
+          "zone_type": "Academic",
+          "status": "Active"
+        },
+        "measurement": {
+          "type": "AREA",
+          "value": 11799.49,
+          "unit": "m²",
+          "formatted": "1.18 ha",
+          "conversions": {
+            "m2": {
+              "unit": "m²",
+              "value": 11799.49,
+              "formatted": "11,799.49 m²"
+            },
+            "ha": {
+              "unit": "ha",
+              "value": 1.1799,
+              "formatted": "1.1799 ha"
+            },
+            "km2": {
+              "unit": "km²",
+              "value": 0.0118,
+              "formatted": "0.0118 km²"
+            },
+            "acres": {
+              "unit": "ac",
+              "value": 2.92,
+              "formatted": "2.92 ac"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 1,
+        "geometry_type": "LineString",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              78.4855,
+              17.3845,
+              0
+            ],
+            [
+              78.4865,
+              17.3855,
+              0
+            ],
+            [
+              78.4875,
+              17.3865,
+              0
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32644",
+        "properties": {
+          "name": "Main Campus Road",
+          "road_type": "Internal",
+          "status": "Open"
+        },
+        "measurement": {
+          "type": "LENGTH",
+          "value": 307.41,
+          "unit": "m",
+          "formatted": "307.41 m",
+          "conversions": {
+            "m": {
+              "unit": "m",
+              "value": 307.41,
+              "formatted": "307.41 m"
+            },
+            "km": {
+              "unit": "km",
+              "value": 0.307,
+              "formatted": "0.307 km"
+            },
+            "ft": {
+              "unit": "ft",
+              "value": 1008.55,
+              "formatted": "1,008.55 ft"
+            },
+            "miles": {
+              "unit": "mi",
+              "value": 0.191,
+              "formatted": "0.191 mi"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 2,
+        "geometry_type": "Point",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            78.4865,
+            17.3855,
+            0
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32644",
+        "properties": {
+          "name": "CSE Building",
+          "building_type": "Academic",
+          "floor_count": "4"
+        },
+        "measurement": null,
+        "measurement_status": "NOT_APPLICABLE"
+      }
+    ]
+  },
+  {
+    "id": "zbqxf32mmf",
+    "filename": "agricultural_zones_survey.kml",
+    "feature_count": 6,
+    "crs": "EPSG:4326",
+    "measurement_crs": "EPSG:32643",
+    "measurement_units": "meters",
+    "status": "COMPLETED",
+    "geometry_types": {
+      "Polygon": 2,
+      "LineString": 2,
+      "Point": 2,
+      "MultiPolygon": 0,
+      "MultiLineString": 0,
+      "MultiPoint": 0,
+      "Other": 0
+    },
+    "created_at": "2026-10-10T17:35:50.654Z",
+    "processing_time_ms": 14,
+    "file_size_bytes": 3229,
+    "summary_data": {
+      "total_features": 6,
+      "polygon_count": 2,
+      "linestring_count": 2,
+      "point_count": 2,
+      "other_count": 0,
+      "total_area_m2": 590372.97,
+      "total_area_ha": 59.0373,
+      "total_area_km2": 0.5904,
+      "total_area_acres": 145.88,
+      "total_length_m": 2943.06,
+      "total_length_km": 2.943,
+      "total_length_miles": 1.829,
+      "total_length_ft": 9655.72,
+      "source_crs": "EPSG:4326",
+      "measurement_crs": "EPSG:32643",
+      "measurement_units": "meters",
+      "crs_strategy": "Auto-selected WGS 84 / UTM zone 43N (EPSG:32643) based on dataset centroid (12.9790°N, 77.5905°E)",
+      "bounds": [
+        [
+          12.972,
+          77.583
+        ],
+        [
+          12.986,
+          77.598
+        ]
+      ],
+      "center": [
+        12.979,
+        77.59049999999999
+      ]
+    },
+    "features": [
+      {
+        "feature_id": 0,
+        "geometry_type": "Polygon",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                77.585,
+                12.98,
+                0
+              ],
+              [
+                77.59,
+                12.98,
+                0
+              ],
+              [
+                77.59,
+                12.985,
+                0
+              ],
+              [
+                77.585,
+                12.985,
+                0
+              ],
+              [
+                77.585,
+                12.98,
+                0
+              ]
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "North Orchard Field",
+          "description": "Commercial citrus orchard zone",
+          "crop_type": "Citrus",
+          "soil_grade": "Class A"
+        },
+        "measurement": {
+          "type": "AREA",
+          "value": 301207.44,
+          "unit": "m²",
+          "formatted": "30.12 ha",
+          "conversions": {
+            "m2": {
+              "unit": "m²",
+              "value": 301207.44,
+              "formatted": "301,207.44 m²"
+            },
+            "ha": {
+              "unit": "ha",
+              "value": 30.1207,
+              "formatted": "30.1207 ha"
+            },
+            "km2": {
+              "unit": "km²",
+              "value": 0.3012,
+              "formatted": "0.3012 km²"
+            },
+            "acres": {
+              "unit": "ac",
+              "value": 74.43,
+              "formatted": "74.43 ac"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 1,
+        "geometry_type": "Polygon",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                77.592,
+                12.975,
+                0
+              ],
+              [
+                77.598,
+                12.975,
+                0
+              ],
+              [
+                77.598,
+                12.979,
+                0
+              ],
+              [
+                77.592,
+                12.979,
+                0
+              ],
+              [
+                77.592,
+                12.975,
+                0
+              ]
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "South Vineyard Field",
+          "description": "Organic grape cultivation parcel",
+          "crop_type": "Grapevine",
+          "irrigation": "Drip"
+        },
+        "measurement": {
+          "type": "AREA",
+          "value": 289165.54,
+          "unit": "m²",
+          "formatted": "28.92 ha",
+          "conversions": {
+            "m2": {
+              "unit": "m²",
+              "value": 289165.54,
+              "formatted": "289,165.54 m²"
+            },
+            "ha": {
+              "unit": "ha",
+              "value": 28.9166,
+              "formatted": "28.9166 ha"
+            },
+            "km2": {
+              "unit": "km²",
+              "value": 0.2892,
+              "formatted": "0.2892 km²"
+            },
+            "acres": {
+              "unit": "ac",
+              "value": 71.45,
+              "formatted": "71.45 ac"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 2,
+        "geometry_type": "LineString",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.583,
+              12.978,
+              0
+            ],
+            [
+              77.587,
+              12.981,
+              0
+            ],
+            [
+              77.591,
+              12.983,
+              0
+            ],
+            [
+              77.596,
+              12.986,
+              0
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "Main Irrigation Canal",
+          "description": "Primary concrete-lined water distribution canal",
+          "flow_rate": "4.5 m3/s"
+        },
+        "measurement": {
+          "type": "LENGTH",
+          "value": 1670.29,
+          "unit": "m",
+          "formatted": "1.67 km",
+          "conversions": {
+            "m": {
+              "unit": "m",
+              "value": 1670.29,
+              "formatted": "1,670.29 m"
+            },
+            "km": {
+              "unit": "km",
+              "value": 1.67,
+              "formatted": "1.670 km"
+            },
+            "ft": {
+              "unit": "ft",
+              "value": 5479.95,
+              "formatted": "5,479.95 ft"
+            },
+            "miles": {
+              "unit": "mi",
+              "value": 1.038,
+              "formatted": "1.038 mi"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 3,
+        "geometry_type": "LineString",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.584,
+              12.972,
+              0
+            ],
+            [
+              77.589,
+              12.974,
+              0
+            ],
+            [
+              77.595,
+              12.976,
+              0
+            ]
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "Estate Access Roadway",
+          "description": "Paved dual-lane agricultural access road"
+        },
+        "measurement": {
+          "type": "LENGTH",
+          "value": 1272.77,
+          "unit": "m",
+          "formatted": "1.27 km",
+          "conversions": {
+            "m": {
+              "unit": "m",
+              "value": 1272.77,
+              "formatted": "1,272.77 m"
+            },
+            "km": {
+              "unit": "km",
+              "value": 1.273,
+              "formatted": "1.273 km"
+            },
+            "ft": {
+              "unit": "ft",
+              "value": 4175.76,
+              "formatted": "4,175.76 ft"
+            },
+            "miles": {
+              "unit": "mi",
+              "value": 0.791,
+              "formatted": "0.791 mi"
+            }
+          }
+        },
+        "measurement_status": "COMPLETED"
+      },
+      {
+        "feature_id": 4,
+        "geometry_type": "Point",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.588,
+            12.982,
+            0
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "Meteorological Station A1",
+          "description": "Solar-powered automated agro-weather telemetry station"
+        },
+        "measurement": null,
+        "measurement_status": "NOT_APPLICABLE"
+      },
+      {
+        "feature_id": 5,
+        "geometry_type": "Point",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.594,
+            12.977,
+            0
+          ]
+        },
+        "crs": "EPSG:4326",
+        "measurement_crs": "EPSG:32643",
+        "properties": {
+          "name": "Soil Telemetry Sensor #4",
+          "description": "Subsurface IoT moisture and salinity probe"
+        },
+        "measurement": null,
+        "measurement_status": "NOT_APPLICABLE"
+      }
+    ]
   }
 ]

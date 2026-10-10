@@ -6,7 +6,7 @@ import {
   MeasurementSummary
 } from '../types/geospatial';
 
-const API_BASE = '/api';
+const API_BASE = 'http://localhost:8001/api';
 
 export async function fetchHealth(): Promise<HealthStatus> {
   const res = await fetch(`${API_BASE}/health`);

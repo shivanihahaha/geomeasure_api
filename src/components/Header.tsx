@@ -34,9 +34,8 @@ export const Header: React.FC<HeaderProps> = ({
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
           <button
             onClick={() => onNavigate('dashboard')}
-            className={`transition-colors hover:text-white ${
-              activeView === 'dashboard' ? 'text-emerald-400 font-semibold' : ''
-            }`}
+            className={`transition-colors hover:text-white ${activeView === 'dashboard' ? 'text-emerald-400 font-semibold' : ''
+              }`}
           >
             Dashboard
           </button>
@@ -44,9 +43,8 @@ export const Header: React.FC<HeaderProps> = ({
           {hasActiveAnalysis && (
             <button
               onClick={() => onNavigate('analysis')}
-              className={`transition-colors hover:text-white flex items-center gap-1.5 ${
-                activeView === 'analysis' ? 'text-emerald-400 font-semibold' : ''
-              }`}
+              className={`transition-colors hover:text-white flex items-center gap-1.5 ${activeView === 'analysis' ? 'text-emerald-400 font-semibold' : ''
+                }`}
             >
               <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
               Active Analysis
@@ -54,7 +52,7 @@ export const Header: React.FC<HeaderProps> = ({
           )}
 
           <a
-            href="/docs"
+            href="http://localhost:8001/docs"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-white flex items-center gap-1"
