@@ -52,7 +52,7 @@ export const Header: React.FC<HeaderProps> = ({
           )}
 
           <a
-            href="http://localhost:8001/docs"
+            href="https://geomeasure-api-k0hs.onrender.com/docs"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-white flex items-center gap-1"

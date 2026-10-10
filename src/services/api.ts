@@ -6,7 +6,7 @@ import {
   MeasurementSummary
 } from '../types/geospatial';
 
-const API_BASE = 'http://localhost:8001/api';
+const API_BASE = 'https://geomeasure-api-k0hs.onrender.com/api';
 
 export async function fetchHealth(): Promise<HealthStatus> {
   const res = await fetch(`${API_BASE}/health`);
